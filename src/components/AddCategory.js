@@ -13,7 +13,7 @@ export const AddCategory = ({ setCategories }) => {
 
     if (inputValue.trim().length > 2) {
       //aqui se valida que no se ingresen datos vacios y se quitan espacios en blanco
-      setCategories((cats) => [...cats, inputValue]);
+      setCategories((cats) => [inputValue, ...cats]);
       setInputValue(" "); //para que este vacio el input cuando se hace submit
     }
   };
