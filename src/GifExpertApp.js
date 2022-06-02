@@ -3,7 +3,7 @@ import { AddCategory } from "./components/AddCategory";
 import { GifGrid } from "./components/GifGrid";
 
 export const GifExpertApp = () => {
-  const [categories, setCategories] = useState(["One Punch"]);
+  const [categories, setCategories] = useState(["Nezuko"]);
 
   // const handleAdd = () => {
   //   // setCategories(categories.push("Hunter X")); //esto no funciona ya que se esta modificando el estado inicial del arreglo.
